@@ -1,0 +1,17 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="GameArea" type="MeshInstance2D" parent="."]
+
+[node name="MarginContainer" type="MarginContainer" parent="GameArea"]
+anchor_right = 0.5
+anchor_bottom = 0.152
+margin_right = 500.0
+margin_bottom = 350.0
+
+[node name="CompletedSuitContainer" type="HBoxContainer" parent="GameArea/MarginContainer"]
+margin_left = 125.0
+margin_top = 25.0
+margin_right = 425.0
+margin_bottom = 115.0

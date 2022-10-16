@@ -39,6 +39,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Solitaire"
+run/main_scene="res://Scenes/GameTable.tscn"
 config/icon="res://icon.png"
 
 [autoload]
